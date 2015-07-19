@@ -1,0 +1,29 @@
+<div class="home_welcome_text">
+    <p>Le problème n’est pas d’inventer l’espace, encore moins de le ré-inventer (trop de gens bien attentionnés sont là aujourd’hui pour penser notre environnement....), mais de l’interroger, ou, plus simplement encore, de le lire ; car ce que nous appelons quotidienneté n’est pas évidence, mais opacité : une forme de cécité, une manière d’anesthésie. C’est à partir de ces constatations élémentaires que s’est développé ce livre, journal d’un usager de l’espace.
+    </p>
+    <p>
+        Georges Perec, « Prière d’insérer »,
+        <i>Espèces d’espaces</i>, 1974
+    </p>
+</div>
+<div class="home_project_tags">
+    <div ng-repeat="project in projects | unique : 'tag'">
+        <input ng-model="tags[project.tag]" ng-checked="true" type="checkbox" value="{{project.tag}}" id="{{project.tag}}" name="{{project.tag}}" checked="checked" />
+        <label for="{{project.tag}}">&nbsp;&nbsp;&nbsp;&nbsp;</label>
+    </div>
+</div>
+<div class="home_project">
+    <a class="home_project_list" href="#/projects/{{project.id}}" ng-repeat="project in projects | uniqueInList:tags | shuffle">
+        <img class="home_project_list_thumb" ng-src='{{project.coverUrl}}'>
+    </a>
+
+    <!--
+    <ul class="home_project_list">
+        <li ng-repeat="project in projects | uniqueInList:tags | shuffle">
+            <a href="#/projects/{{project.id}}">
+                <img class="home_project_list_thumb" ng-src='{{project.coverUrl}}'>
+            </a>
+        </li>
+    </ul>
+-->
+</div>

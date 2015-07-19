@@ -1,0 +1,11 @@
+<div class="project_details">
+    <i class="project_details_title">{{project.name}}</i>
+    <div class="project_details_description">{{project.description}}</div>
+    <div class="rowfluid">
+        <ul class="project_details_list">
+            <li ng-repeat="img in project.imagesUrl">
+                <img class="project_details_list_thumb" ng-src='{{img}}'>
+            </li>
+        </ul>
+    </div>
+</div>
