@@ -11,4 +11,8 @@ describe('Filter: unique', function () {
     unique = $filter('unique');
   }));
 
+  it('should return undefined for undefined input:"', function () {
+    var output = unique(undefined, undefined); 
+    expect(output).toBe(undefined);
+  });
 });

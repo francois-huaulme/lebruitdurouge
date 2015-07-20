@@ -1,17 +1,17 @@
 'use strict';
 
-describe('Controller: AboutCtrl', function () {
+describe('Controller: HomectrlCtrl', function () {
 
   // load the controller's module
   beforeEach(module('lebruitdurougeApp'));
 
-  var AboutCtrl,
+  var HomectrlCtrl,
     scope;
 
   // Initialize the controller and a mock scope
   beforeEach(inject(function ($controller, $rootScope) {
     scope = $rootScope.$new();
-    AboutCtrl = $controller('AboutCtrl', {
+    HomectrlCtrl = $controller('HomectrlCtrl', {
       $scope: scope
       // place here mocked dependencies
     });

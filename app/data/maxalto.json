@@ -1,5 +1,5 @@
 {
     "name": "Scénographie Max Alto",
     "description": "Mise en oeuvre de la scénographie de Maxalto imaginée par Tristan Auer pour les Designer's Days en juin 2012. Mise en espace d'un fauteuil original de Tobia Scarpa et de sa réinterprétation contemporaine.",
-    "imagesUrl": ["img/maxalto/maxalto1.jpg", "img/maxalto/maxalto2.jpg", "img/maxalto/maxalto3.jpg", "img/maxalto/maxalto4.jpg", "img/maxalto/maxalto5.jpg"]
+    "imagesUrl": ["images/maxalto/maxalto1.jpg", "images/maxalto/maxalto2.jpg", "images/maxalto/maxalto3.jpg", "images/maxalto/maxalto4.jpg", "images/maxalto/maxalto5.jpg"]
 }

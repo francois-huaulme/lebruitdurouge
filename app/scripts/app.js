@@ -22,12 +22,11 @@ angular
     
     $routeProvider
       .when('/home', {
-        templateUrl: 'views/home.html', 
-        controller: 'HomeCtrl'
+        redirectTo: '/'
       })
       .when('/', {
         templateUrl: 'views/home.html',
-        controller: 'MainCtrl',
+        controller: 'HomeCtrl',
         controllerAs: 'main'
       })
       .when('/about', {
@@ -36,7 +35,7 @@ angular
         controllerAs: 'about'
       })
       .when('/projects/:projectId', {
-        templateUrl: 'partials/projects.html', 
+        templateUrl: 'views/projects.html', 
         controller: 'ProjectDetailsCtrl'
       })
       .otherwise({

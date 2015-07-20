@@ -1,5 +1,5 @@
 {
     "name": "Concours de Chaumont sur Loire",
     "description": "Projet pour le festival des jardins sur le thème 'Jardin des délices, jardin des délires'. Ce jardin ne se traverse pas, il se longe. Ce jardin ne s'admire pas, il s'imagine. Ce jardin ne s'offre pas au promeneur, il se recherche. Ce jardin n'est pas une image, il est une sensation fugace. Projet en collaboration avec Emilie Baroz et Marika Charpentier.",
-    "imagesUrl": ["img/chaumont/chaumont_1.jpg", "img/chaumont/chaumont_2.jpg", "img/chaumont/chaumont_3.jpg", "img/chaumont/chaumont_4.jpg", "img/chaumont/chaumont_5.jpg", "img/chaumont/chaumont_6.jpg"]
+    "imagesUrl": ["images/chaumont/chaumont_1.jpg", "images/chaumont/chaumont_2.jpg", "images/chaumont/chaumont_3.jpg", "images/chaumont/chaumont_4.jpg", "images/chaumont/chaumont_5.jpg", "images/chaumont/chaumont_6.jpg"]
 }

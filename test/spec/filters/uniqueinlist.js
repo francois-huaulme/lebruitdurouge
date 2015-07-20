@@ -11,4 +11,9 @@ describe('Filter: uniqueInList', function () {
     uniqueInList = $filter('uniqueInList');
   }));
 
+  it('should return undefined for undefined input:"', function () {
+    var output = uniqueInList(undefined, undefined); 
+    expect(output).toBe(undefined);
+  });
+
 });

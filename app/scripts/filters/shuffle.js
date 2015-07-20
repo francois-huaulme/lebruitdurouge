@@ -11,7 +11,11 @@
 angular.module('lebruitdurougeApp')
   .filter('shuffle', function() {
     return function(input) {
-        for(var j, x, i = input.length; i; j = Math.floor(Math.random() * i), x = input[--i], input[i] = input[j], input[j] = x);
-        return input;
+        if(input == undefined) {
+            return undefined;
+        }
+        var shuffledInput = input.slice();
+        for(var j, x, i = shuffledInput.length; i; j = Math.floor(Math.random() * i), x = shuffledInput[--i], shuffledInput[i] = shuffledInput[j], shuffledInput[j] = x);
+        return shuffledInput;
     };
   });

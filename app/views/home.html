@@ -13,17 +13,8 @@
     </div>
 </div>
 <div class="home_project">
+    <!-- TODO Move shuffle to controller / directive as it changes the model -->
     <a class="home_project_list" href="#/projects/{{project.id}}" ng-repeat="project in projects | uniqueInList:tags | shuffle">
         <img class="home_project_list_thumb" ng-src='{{project.coverUrl}}'>
     </a>
-
-    <!--
-    <ul class="home_project_list">
-        <li ng-repeat="project in projects | uniqueInList:tags | shuffle">
-            <a href="#/projects/{{project.id}}">
-                <img class="home_project_list_thumb" ng-src='{{project.coverUrl}}'>
-            </a>
-        </li>
-    </ul>
--->
 </div>

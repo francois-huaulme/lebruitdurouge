@@ -19,4 +19,9 @@ describe('Filter: shuffle', function () {
     expect(output).toContain('3');
   });
 
+  it('should return undefined for undefined input:"', function () {
+    var output = shuffle(undefined); 
+    expect(output).toBe(undefined);
+  });
+    
 });

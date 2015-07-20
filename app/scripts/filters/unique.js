@@ -11,6 +11,9 @@
 angular.module('lebruitdurougeApp')
   .filter('unique', function() {
     return function(input, key) {
+        if(input == undefined) {
+          return undefined;   
+        }
         var unique = {};
         var uniqueList = [];
         for(var i = 0; i < input.length; i++){
