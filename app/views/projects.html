@@ -1,10 +1,4 @@
 <div class="project_details">
     <div class="project_details_description">{{project.description}}</div>
-    <div>
-        <ul class="project_details_list">
-            <li ng-repeat="img in project.imagesUrl">
-                <img class="project_details_list_thumb" ng-src='{{img}}'>
-            </li>
-        </ul>
-    </div>
+    <div deckgrid class="deckgrid" source="slides" cardTemplateString="<img class='card' src='{{card.imageUrl}}'/>"/>
 </div>
