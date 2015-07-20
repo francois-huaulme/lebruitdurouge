@@ -14,11 +14,17 @@ angular.module('lebruitdurougeApp')
         if(input == undefined || values == undefined) {
             return undefined;   
         }
-        var filteredList = [];
-        for(var i = 0; i < input.length; i++) {
-            if(values[input[i].tag] || values[input[i].tag] == undefined) {
-                filteredList.push(input[i]);
-            }
+        if(values.length == 0) {
+            return input;   
+        }
+        var filteredList = [];    
+        for(var j = 0; j < values.length; j++) {
+            var currentValue = values[j];
+            for(var i = 0; i < input.length; i++) {
+                if(input[i].tag == currentValue) {
+                    filteredList.push(input[i]);
+                }
+            }    
         }
         return filteredList;
     };

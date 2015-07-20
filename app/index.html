@@ -14,18 +14,14 @@
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
   </head>
-  <body ng-app="lebruitdurougeApp">
+  <body ng-app="lebruitdurougeApp" class="container">
     <!--[if lte IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
-    <div class="header">
-    </div>
-
-    <div class="container">
+    <div header></div>
     <div ng-view=""></div>
-    </div>
 
     <!-- Google Analytics: change UA-XXXXX-X to be your site's ID -->
      <script>
@@ -63,6 +59,8 @@
         <script src="scripts/controllers/projectdetails.js"></script>
         <script src="scripts/services/projects.js"></script>
         <script src="scripts/services/project.js"></script>
+        <script src="scripts/controllers/header.js"></script>
+        <script src="scripts/directives/header.js"></script>
         <!-- endbuild -->
 </body>
 </html>

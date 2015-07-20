@@ -8,7 +8,17 @@
  * Controller of the lebruitdurougeApp
  */
 angular.module('lebruitdurougeApp')
-  .controller('HomeCtrl', function($scope, $http, projects) {
+  .controller('HomeCtrl', ['$scope','$routeParams','projects',
+  function($scope,$routeParams,projects) {
     $scope.projects = projects.query();
-    $scope.tags = {};
-  });
+    var filter = $routeParams.filter;
+    if(filter == undefined) {
+      $scope.tags = [];
+    } else {
+      $scope.tags = [filter];   
+    }
+    if(false)
+    alert($scope);
+  }]
+);
+

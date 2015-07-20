@@ -1,0 +1,12 @@
+<div class="header">
+    <div class="header_logo"><img src="https://placehold.it/150x150"/></div>
+    <div>
+        <ul class="menu">
+            <li><a href="#/">Accueil</a></li>
+            <li><a href="#/about">A Propos...</a></li>
+            <li ng-repeat="project in projects | unique : 'tag'">
+                <a href="#/?filter={{project.tag}}">{{project.tag}}</a>
+            </li>
+        </ul>
+    </div>
+</div>
