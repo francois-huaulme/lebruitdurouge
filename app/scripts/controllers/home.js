@@ -8,17 +8,20 @@
  * Controller of the lebruitdurougeApp
  */
 angular.module('lebruitdurougeApp')
-  .controller('HomeCtrl', ['$scope','$routeParams','projects',
-  function($scope,$routeParams,projects) {
-    $scope.projects = projects.query();
-    var filter = $routeParams.filter;
-    if(filter == undefined) {
-      $scope.tags = [];
-    } else {
-      $scope.tags = [filter];   
-    }
-    if(false)
-    alert($scope);
+  .controller('HomeCtrl', ['$scope','$routeParams','$filter','projects',
+  function($scope,$routeParams,$filter,projects) {
+      var filterParam = $routeParams.filter;
+      $scope.slides = projects.query(function() {
+          // Get filter from param
+          var filteredProjects;
+          if(filterParam == undefined) {
+              filteredProjects = $scope.slides;
+          } else {
+              filteredProjects = $filter('uniqueInList')($scope.slides, [filterParam]);
+          }
+          $scope.slides = $filter('shuffle')(filteredProjects);    
+      });
+      
   }]
 );
 
