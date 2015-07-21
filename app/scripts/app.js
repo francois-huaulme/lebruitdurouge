@@ -17,7 +17,8 @@ angular
     'ngRoute',
     'ngSanitize',
     'ngTouch',
-    'akoenig.deckgrid'
+    'akoenig.deckgrid',
+    'sticky'
   ])
   .config(function ($routeProvider) {
     
