@@ -18,7 +18,8 @@ angular
     'ngSanitize',
     'ngTouch',
     'akoenig.deckgrid',
-    'sticky'
+    'sticky',
+    'ui.bootstrap'
   ])
   .config(function ($routeProvider) {
     
