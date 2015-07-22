@@ -11,7 +11,7 @@ angular.module('lebruitdurougeApp')
     return {
         restrict: 'A',
         replace: true,
-        templateUrl: "/scripts/directives/header.html",
+        templateUrl: "/templates/header.html",
         controller: ['$scope', '$filter', 'projects', function ($scope, $filter, projects) {
             $scope.projects = projects.query();
         }]

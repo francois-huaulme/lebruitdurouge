@@ -1,12 +1,18 @@
 sudo: false
 language: node_js
 before_install:
-  - gem install sass
-  - gem install compass
+- gem install sass
+- gem install compass
+- gem install s3_website 
 node_js:
-  - 'iojs'
-  - '0.12'
-  - '0.10'
+- iojs
 before_script:
-  - 'npm install -g bower grunt-cli'
-  - 'bower install'
+- npm install -g bower grunt-cli
+- bower install
+script:
+- grunt build
+after_success: s3_website push
+env:
+  global:
+  - secure: eQi7HRUGmuQh2kv6vXvMNLGbnfpXnfe/GpgWqkSrfbI+xWNaMnQNwVIeBNXeRH3jpxvPMhK6+yStu6rh3bUuSDqoz/mL5+8j6jRq4biBRa+vNpH43OEXXRClH472zZAlQmDS/7YaLce7iySuBmq17Rws+50e6oCCUm3HVmhRsL+nVwcW60DAeH9KiWrNpQe/b55iP07bIoBQOQn5vnADNnpGq1GeTopuSj+uFpRcTcCWsuI3LjUOn9T/6smoQLhP3p+RzbgXIV1oFBoM3GH7mdHnz/fEUqllUea3F1ZEQ/O6CM1H5nQ9FQcDshDWYVICjl2fKyCeT2mQTlqL9EKqU1fzB1hyp3c4NkY3WqVs3S1HfhQH8bODs8fzj+UPmnxgeOeQTNTrzhb3/f/NkeQDSE9YR6KvhrMG5H8k4PRbsyP58bkwOlk9FvMibkyGIAugPiynof5t9oPcVrGRCBvbeR11RtQOErrcsrF4cfCtSjX9wkKzFaXgU2UjesXF26HzMN8xuUcB7H/sSGSVQVR08qxQZYYZlIt8zE24qJ3YkP74O967ejHnQTdKY8K7ugQltNPL8clUxhqo7PnIXBVqA0bCfL5KyzqeFCDndHWQS/m7yqqTa0kzB1FH48NRoCjQnDEs5wO+QNJsT+cmXRmjHUISYTFmtuqGs6s70n+7w+4=
+  - secure: em/ZIy3m8k7ejTd/LB0DVLIZQhLFksj934DAmkxHH2K0txtR/VpPFtp7dtIi8K5GsjiUqsKjFYUflTNjvFxxQbPIEkBCT9ux74mM5JmpfzSDKoZrjXTP5UH3bL4F7vaYf/uO53ixwFnTHWu8ndi7jJriyOALcnTK2msxIufELlK46pATWuUyj5D2GH/iVIpA8cSfQkQ/rN4HmHVL7iysjG9EdryDLKhhZN+YB7Z3sEqZ7EREVjSDVrn1R4HqDd/jB8dnFLHYcxDo/T6F4Z8ORYHijnT7wOQFSdso812XFeD+yWwVrDztYXB5msmk2Lyo3WyaHWs4sWEhnTaTLkaH5Ux11UR/A6pt0lL12Ii1akbgSoZvqE0EuNDNpnLQb9Og2FEUHkaFgcrDLQJCAmdbHwgrtxQj6TDyjhrmtu4qgl+7eAvpgMKHca7XPfmI085F6Is8ozUDFnvXWvsrSHzMB0mc12YnRgsDUMaMsJp8Y3uF9iKDtxMoGEFvAbuOdn2hjDeCy8tPISRBlDAT8zkzdqWFTjdsAwVDu3K1+ktTGSrv1MrrJirwpE5532aHyqI+9n0Lt/EGbmB/hn/AzVvPZ6PIT1W6IcPwvXdejmkROny4WG+3oqyrbSXO8L1y5fJ+C8Hv6uuYEmSTULIDayRwo/Qx8fm2WYWqnmh0z3HvFIo=
