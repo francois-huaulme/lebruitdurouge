@@ -19,7 +19,8 @@ angular
     'ngTouch',
     'akoenig.deckgrid',
     'sticky',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'pascalprecht.translate'
   ])
   .config(function ($routeProvider) {
     
@@ -44,4 +45,14 @@ angular
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
+  .config(['$translateProvider', function ($translateProvider) {
+      $translateProvider.translations('en', {
+        'MENU_ABOUT': 'About'
+      });
+     
+      $translateProvider.translations('fr', {
+        'MENU_ABOUT': 'A propos...'
+      });
+      $translateProvider.preferredLanguage('fr');
+  }]);
