@@ -108,6 +108,22 @@ body {
     padding: 1em;
     width: 100%;
     height: 100%;
+    background:#fff url(images/spinner.gif) center 30px no-repeat;
+}
+
+.animation-fade {
+    opacity:0;
+}
+
+.animation-faded {
+    opacity:1;
+}
+
+.animation-faded {
+   -webkit-transition: opacity 1s linear .2s;
+   -moz-transition: opacity 1s linear .2s;
+   -o-transition: opacity 1s linear .2s;
+   transition: opacity 1s linear .2s;
 }
 
 /* Header */
