@@ -1,5 +1,23 @@
 {
-    "name": "FFC",
-    "description": "'La chaussure, une passion française, création et innovation depuis 150 ans' Exposition de la Fédération Française de la Chaussure à l'atelier Richelieu. Assistante de Pauline Ricard-André, directrice artistique. Conception du mobilier sur 700m2, mise en scène de 600 chaussures.",
-    "imagesUrl": ["images/FFC/FFC1.jpg", "images/FFC/FFC2.jpg", "images/FFC/FFC3.jpg", "images/FFC/FFC4.jpg", "images/FFC/FFC5.jpg", "images/FFC/FFC6.jpg", "images/FFC/FFC7.jpg", "images/FFC/FFC8.jpg", "images/FFC/FFC9.jpg", "images/FFC/FFC10.jpg", "images/FFC/FFC11.jpg", "images/FFC/FFC12.jpg", "images/FFC/FFC13.jpg", "images/FFC/FFC14.jpg", "images/FFC/FFC15.jpg", "images/FFC/FFC16.jpg", "images/FFC/FFC17.jpg"]
+  "name": "FFC",
+  "description": "'La chaussure, une passion française, création et innovation depuis 150 ans' Exposition de la Fédération Française de la Chaussure à l'atelier Richelieu. Assistante de Pauline Ricard-André, directrice artistique. Conception du mobilier sur 700m2, mise en scène de 600 chaussures.",
+  "imagesUrl": [
+    "images/ffc/FFC1.jpg",
+    "images/ffc/FFC2.jpg",
+    "images/ffc/FFC3.jpg",
+    "images/ffc/FFC4.jpg",
+    "images/ffc/FFC5.jpg",
+    "images/ffc/FFC6.jpg",
+    "images/ffc/FFC7.jpg",
+    "images/ffc/FFC8.jpg",
+    "images/ffc/FFC9.jpg",
+    "images/ffc/FFC10.jpg",
+    "images/ffc/FFC11.jpg",
+    "images/ffc/FFC12.jpg",
+    "images/ffc/FFC13.jpg",
+    "images/ffc/FFC14.jpg",
+    "images/ffc/FFC15.jpg",
+    "images/ffc/FFC16.jpg",
+    "images/ffc/FFC17.jpg"
+  ]
 }

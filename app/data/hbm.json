@@ -1,5 +1,12 @@
 {
-    "name": "hbm",
-    "description": "Cette programmation a été l’occasion d’associer les enjeux d’une problématique urbaine (valoriser les quartiers périphériques de la capitale), aux enjeux spatiaux, sociaux et culturels d’un quartier. Partant d’un contexte global, il s’agissait de programmer de façon synthétique, à l’échelle de l’architecture d’intérieur, deux rez-de-chaussée d’Habitations Bon Marché des années 20, à l’angle des rues Félix Terrier et Eugène Reisz, dans le XX° arr. de Paris.",
-    "imagesUrl": ["images/hbm/hbm_1.jpg", "images/hbm/hbm_2.jpg", "images/hbm/hbm_3.jpg", "images/hbm/hbm_4.jpg", "images/hbm/hbm_5.jpg", "images/hbm/hbm_6.jpg"]
+  "name": "hbm",
+  "description": "Cette programmation a été l’occasion d’associer les enjeux d’une problématique urbaine (valoriser les quartiers périphériques de la capitale), aux enjeux spatiaux, sociaux et culturels d’un quartier. Partant d’un contexte global, il s’agissait de programmer de façon synthétique, à l’échelle de l’architecture d’intérieur, deux rez-de-chaussée d’Habitations Bon Marché des années 20, à l’angle des rues Félix Terrier et Eugène Reisz, dans le XX° arr. de Paris.",
+  "imagesUrl": [
+    "images/hbm/hbm_1.jpg",
+    "images/hbm/hbm_2.jpg",
+    "images/hbm/hbm_3.jpg",
+    "images/hbm/hbm_4.jpg",
+    "images/hbm/hbm_5.jpg",
+    "images/hbm/hbm_6.jpg"
+  ]
 }

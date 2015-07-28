@@ -1,5 +1,12 @@
 {
-    "name": "gravigny",
-    "description": "Concours pour la réalisation de 53 logements sociaux à Gravigny (27). Poste : assistante chef de projet",
-    "imagesUrl": ["images/gravigny/gravigny_1.jpg", "images/gravigny/gravigny_2.jpg", "images/gravigny/gravigny_3.jpg", "images/gravigny/gravigny_4.jpg", "images/gravigny/gravigny_5.jpg", "images/gravigny/gravigny_6.jpg"]
+  "name": "gravigny",
+  "description": "Concours pour la réalisation de 53 logements sociaux à Gravigny (27). Poste : assistante chef de projet",
+  "imagesUrl": [
+    "images/gravigny/gravigny_1.jpg",
+    "images/gravigny/gravigny_2.jpg",
+    "images/gravigny/gravigny_3.jpg",
+    "images/gravigny/gravigny_4.jpg",
+    "images/gravigny/gravigny_5.jpg",
+    "images/gravigny/gravigny_6.jpg"
+  ]
 }

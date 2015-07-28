@@ -9,14 +9,14 @@
  */
 angular.module('lebruitdurougeApp')
   .service('project', ['$resource',
-  function ($resource) {
-        return $resource('data/:projectId.json', {}, {
-            query: {
-                method: 'GET',
-                params: {
-                    projectId: ''
-                },
-                isArray: false
-            }
-        });
-  }]);
+    function ($resource) {
+      return $resource('data/:projectId.json', {}, {
+        query: {
+          method: 'GET',
+          params: {
+            projectId: ''
+          },
+          isArray: false
+        }
+      });
+    }]);

@@ -9,12 +9,12 @@
  */
 angular.module('lebruitdurougeApp')
   .service('projects', ['$resource',
-  function ($resource) {
-        return $resource('data/projects.json', {}, {
-            query: {
-                method: 'GET',
-                params: {},
-                isArray: true
-            }
-        });
-  }]);
+    function ($resource) {
+      return $resource('data/projects.json', {}, {
+        query: {
+          method: 'GET',
+          params: {},
+          isArray: true
+        }
+      });
+    }]);

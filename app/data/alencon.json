@@ -1,5 +1,10 @@
 {
-        "name": "Alençon",
-        "description": "Concours pour la réalisation de 60 logements sociaux THPE à Alençon (61). Poste : assistante chef de projet APS > PC (en cours). Logiciel : Revit.",
-        "imagesUrl" : ["images/alencon/alencon_1.jpg", "images/alencon/alencon_2.jpg", "images/alencon/alencon_3.jpg", "images/alencon/alencon_4.jpg"]
+  "name": "Alençon",
+  "description": "Concours pour la réalisation de 60 logements sociaux THPE à Alençon (61). Poste : assistante chef de projet APS > PC (en cours). Logiciel : Revit.",
+  "imagesUrl": [
+    "images/alencon/alencon_1.jpg",
+    "images/alencon/alencon_2.jpg",
+    "images/alencon/alencon_3.jpg",
+    "images/alencon/alencon_4.jpg"
+  ]
 }

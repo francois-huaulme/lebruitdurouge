@@ -1,5 +1,11 @@
 {
-    "name": "Auxerre",
-    "description": "Concours pour la réalisation de 65 logements sociaux BBC à Auxerre (89). Poste : assistante chef de projet APS > DCE (en cours). Logiciel : Revit.",
-    "imagesUrl": ["images/auxerre/auxerre_1.jpg", "images/auxerre/auxerre_2.jpg", "images/auxerre/auxerre_3.jpg", "images/auxerre/auxerre_4.jpg", "images/auxerre/auxerre_5.jpg"]
+  "name": "Auxerre",
+  "description": "Concours pour la réalisation de 65 logements sociaux BBC à Auxerre (89). Poste : assistante chef de projet APS > DCE (en cours). Logiciel : Revit.",
+  "imagesUrl": [
+    "images/auxerre/auxerre_1.jpg",
+    "images/auxerre/auxerre_2.jpg",
+    "images/auxerre/auxerre_3.jpg",
+    "images/auxerre/auxerre_4.jpg",
+    "images/auxerre/auxerre_5.jpg"
+  ]
 }
