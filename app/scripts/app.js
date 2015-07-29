@@ -55,4 +55,5 @@ angular
       'MENU_ABOUT': 'A propos...'
     });
     $translateProvider.preferredLanguage('fr');
+    $translateProvider.useSanitizeValueStrategy('sanitize');
   }]);
