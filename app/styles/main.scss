@@ -81,7 +81,7 @@ body {
     padding: 1em;
     width: 100%;
     height: 100%;
-    background:#fff url(images/spinner.gif) center 30px no-repeat;
+    background: #fff url(/images/spinner.gif) no-repeat center center;
 }
 
 .animation-fade {
@@ -111,7 +111,7 @@ body {
     top: 0; left: 0; right: 0;
 }
 .header_logo {
-    text-align: center;   
+    text-align: center;
     margin: 10px;
 }
 .menu {
@@ -120,7 +120,6 @@ body {
     list-style: none;
     margin-bottom: 2em;
     padding: 0 0 0.5em;
-    margin: 0px;
 }
 .menu > li {
     display: inline;
@@ -144,26 +143,6 @@ body {
     margin-top: 25px;
     margin-bottom: 25px;
     background-color: white;
-}
-ul.project_details_list {
-    display: flex;
-    padding: 0;
-    flex-flow: row wrap;
-    flex: 1;
-    align-content: center;
-    list-style: none;
-}
-.project_details_list > li {
-    display: inline;
-}
-.project_details_list > li:nth-child(2n):after {
-    display: block;
-    content: '';
-}
-.project_details_list_thumb {
-    width: 350px;
-    height: 350px;
-    padding: 0.5em 0.5em 0.5em;
 }
 
 // PREVIOUS STYLES - END
