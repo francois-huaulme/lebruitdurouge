@@ -51,6 +51,7 @@ angular
       prefix: '/languages/',
       suffix: '.json'
     });
-    $translateProvider.preferredLanguage('en');
-    $translateProvider.useSanitizeValueStrategy('sanitize');
+    $translateProvider.preferredLanguage('fr');
+    $translateProvider.fallbackLanguage('fr')
+    $translateProvider.useSanitizeValueStrategy('escaped');
   }]);

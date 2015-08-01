@@ -15,5 +15,6 @@ angular.module('lebruitdurougeApp')
         allSlides.push({imageUrl: project.imagesUrl[i]});
       }
       $scope.slides = allSlides;
+      $scope.projectId = $routeParams.projectId.toUpperCase();
     });
   });
