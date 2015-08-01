@@ -1,5 +1,11 @@
 {
-    "name": "Boulogne",
-    "description": "Carnet de détails réalisé pour un projet de lieu évènementiel au Bois de Boulogne - phase DCE. Poste : dessinatrice Autocad",
-    "imagesUrl": ["images/boulogne/boulogne_0.jpg", "images/boulogne/boulogne_1.jpg", "images/boulogne/boulogne_2.jpg", "images/boulogne/boulogne_5.jpg", "images/boulogne/boulogne_7.jpg"]
+  "name": "Boulogne",
+  "description": "Carnet de détails réalisé pour un projet de lieu évènementiel au Bois de Boulogne - phase DCE. Poste : dessinatrice Autocad",
+  "imagesUrl": [
+    "images/boulogne/boulogne_0.jpg",
+    "images/boulogne/boulogne_1.jpg",
+    "images/boulogne/boulogne_2.jpg",
+    "images/boulogne/boulogne_5.jpg",
+    "images/boulogne/boulogne_7.jpg"
+  ]
 }

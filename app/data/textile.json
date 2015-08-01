@@ -1,5 +1,14 @@
 {
-    "name": "Créations",
-    "description": "Créations textiles, tricots, bijoux.",
-    "imagesUrl": ["images/textile/textile_1.jpg", "images/textile/textile_2.jpg", "images/textile/textile_3.jpg", "images/textile/textile_4.jpg", "images/textile/textile_5.jpg", "images/textile/textile_6.jpg", "images/textile/textile_7.jpg", "images/textile/textile_8.jpg"]
+  "name": "Créations",
+  "description": "Créations textiles, tricots, bijoux.",
+  "imagesUrl": [
+    "images/textile/textile_1.jpg",
+    "images/textile/textile_2.jpg",
+    "images/textile/textile_3.jpg",
+    "images/textile/textile_4.jpg",
+    "images/textile/textile_5.jpg",
+    "images/textile/textile_6.jpg",
+    "images/textile/textile_7.jpg",
+    "images/textile/textile_8.jpg"
+  ]
 }

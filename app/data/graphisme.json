@@ -1,5 +1,14 @@
 {
-    "name": "graphisme",
-    "description": "Créations graphiques personnelles.",
-    "imagesUrl": ["images/graphisme/graphisme_1.jpg", "images/graphisme/graphisme_2.jpg", "images/graphisme/graphisme_3.jpg", "images/graphisme/graphisme_4.jpg", "images/graphisme/graphisme_5.jpg", "images/graphisme/graphisme_6.jpg", "images/graphisme/graphisme_7.jpg", "images/graphisme/graphisme_8.jpg"]
+  "name": "graphisme",
+  "description": "Créations graphiques personnelles.",
+  "imagesUrl": [
+    "images/graphisme/graphisme_1.jpg",
+    "images/graphisme/graphisme_2.jpg",
+    "images/graphisme/graphisme_3.jpg",
+    "images/graphisme/graphisme_4.jpg",
+    "images/graphisme/graphisme_5.jpg",
+    "images/graphisme/graphisme_6.jpg",
+    "images/graphisme/graphisme_7.jpg",
+    "images/graphisme/graphisme_8.jpg"
+  ]
 }

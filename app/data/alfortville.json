@@ -1,5 +1,10 @@
 {
-    "name": "Alfortville",
-    "description": "Concours pour la réalisation de 88 logements sociaux à Alfortville (94). Poste : assistante chef de projet",
-    "imagesUrl": ["images/alfortville/alfortville_1.jpg", "images/alfortville/alfortville_2.jpg", "images/alfortville/alfortville_3.jpg", "images/alfortville/alfortville_4.jpg"]
+  "name": "Alfortville",
+  "description": "Concours pour la réalisation de 88 logements sociaux à Alfortville (94). Poste : assistante chef de projet",
+  "imagesUrl": [
+    "images/alfortville/alfortville_1.jpg",
+    "images/alfortville/alfortville_2.jpg",
+    "images/alfortville/alfortville_3.jpg",
+    "images/alfortville/alfortville_4.jpg"
+  ]
 }

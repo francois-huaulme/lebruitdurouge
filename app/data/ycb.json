@@ -1,5 +1,7 @@
 {
-    "name": "Yogurt con bullas",
-    "description": "De la laine, du coton, une ménagerie en plastique, du tout doux, des étoiles, des tresses, des noeuds...",
-    "imagesUrl": ["images/ycb/ycb.jpg"]
+  "name": "Yogurt con bullas",
+  "description": "De la laine, du coton, une ménagerie en plastique, du tout doux, des étoiles, des tresses, des noeuds...",
+  "imagesUrl": [
+    "images/ycb/ycb.jpg"
+  ]
 }

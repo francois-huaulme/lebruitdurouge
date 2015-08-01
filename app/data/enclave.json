@@ -1,5 +1,15 @@
 {
-    "name": "Enclave",
-    "description": "Ce projet de logements fait le pari de concilier vie en communauté en zone urbaine et besoin d’intimité. Il propose une valorisation des espaces communs, sans imposer pour autant un mode vie, en permettant de préserver à tout moment son espace privé. Les parties communes sont traitées en extérieur, sous forme de coursives et terrasses protégées par des volets, autour d’un patio lumineux et végétalisé.",
-    "imagesUrl": ["images/enclave/enclave1.jpg", "images/enclave/enclave2.jpg", "images/enclave/enclave3.jpg", "images/enclave/enclave4.jpg", "images/enclave/enclave5.jpg", "images/enclave/enclave6.jpg", "images/enclave/enclave7.jpg", "images/enclave/enclave8.jpg", "images/enclave/enclave9.jpg"]
+  "name": "Enclave",
+  "description": "Ce projet de logements fait le pari de concilier vie en communauté en zone urbaine et besoin d’intimité. Il propose une valorisation des espaces communs, sans imposer pour autant un mode vie, en permettant de préserver à tout moment son espace privé. Les parties communes sont traitées en extérieur, sous forme de coursives et terrasses protégées par des volets, autour d’un patio lumineux et végétalisé.",
+  "imagesUrl": [
+    "images/enclave/enclave1.jpg",
+    "images/enclave/enclave2.jpg",
+    "images/enclave/enclave3.jpg",
+    "images/enclave/enclave4.jpg",
+    "images/enclave/enclave5.jpg",
+    "images/enclave/enclave6.jpg",
+    "images/enclave/enclave7.jpg",
+    "images/enclave/enclave8.jpg",
+    "images/enclave/enclave9.jpg"
+  ]
 }

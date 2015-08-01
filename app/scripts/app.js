@@ -19,10 +19,11 @@ angular
     'ngTouch',
     'akoenig.deckgrid',
     'sticky',
-    'ui.bootstrap'
+    'ui.bootstrap',
+    'pascalprecht.translate'
   ])
   .config(function ($routeProvider) {
-    
+
     $routeProvider
       .when('/home', {
         redirectTo: '/'
@@ -38,10 +39,21 @@ angular
         controllerAs: 'about'
       })
       .when('/projects/:projectId', {
-        templateUrl: 'views/projects.html', 
+        templateUrl: 'views/projects.html',
         controller: 'ProjectDetailsCtrl'
       })
       .otherwise({
         redirectTo: '/'
       });
-  });
+  })
+  .config(['$translateProvider', function ($translateProvider) {
+    $translateProvider.translations('en', {
+      'MENU_ABOUT': 'About'
+    });
+
+    $translateProvider.translations('fr', {
+      'MENU_ABOUT': 'A propos...'
+    });
+    $translateProvider.preferredLanguage('fr');
+    $translateProvider.useSanitizeValueStrategy('sanitize');
+  }]);

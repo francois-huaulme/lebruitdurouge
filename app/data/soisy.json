@@ -1,5 +1,11 @@
 {
-    "name": "Aménagement d'une maison",
-    "description": "Aménagement d'une maison: réalisation d'un carnet de détails. Poste: assitante chef de projet DCE (chantier en cours).",
-    "imagesUrl": ["images/soisy/soisy_1.jpg", "images/soisy/soisy_2.jpg", "images/soisy/soisy_3.jpg", "images/soisy/soisy_4.jpg", "images/soisy/soisy_5.jpg"]
+  "name": "Aménagement d'une maison",
+  "description": "Aménagement d'une maison: réalisation d'un carnet de détails. Poste: assitante chef de projet DCE (chantier en cours).",
+  "imagesUrl": [
+    "images/soisy/soisy_1.jpg",
+    "images/soisy/soisy_2.jpg",
+    "images/soisy/soisy_3.jpg",
+    "images/soisy/soisy_4.jpg",
+    "images/soisy/soisy_5.jpg"
+  ]
 }
