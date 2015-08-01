@@ -13,9 +13,6 @@ angular.module('lebruitdurougeApp')
       return $resource('data/:projectId.json', {}, {
         query: {
           method: 'GET',
-          params: {
-            projectId: ''
-          },
           isArray: false
         }
       });
