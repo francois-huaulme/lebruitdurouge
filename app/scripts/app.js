@@ -47,13 +47,10 @@ angular
       });
   })
   .config(['$translateProvider', function ($translateProvider) {
-    $translateProvider.translations('en', {
-      'MENU_ABOUT': 'About'
+    $translateProvider.useStaticFilesLoader({
+      prefix: '/languages/',
+      suffix: '.json'
     });
-
-    $translateProvider.translations('fr', {
-      'MENU_ABOUT': 'A propos...'
-    });
-    $translateProvider.preferredLanguage('fr');
+    $translateProvider.preferredLanguage('en');
     $translateProvider.useSanitizeValueStrategy('sanitize');
   }]);
