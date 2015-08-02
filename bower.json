@@ -13,10 +13,11 @@
     "angular-touch": "^1.4.3",
     "angular-deckgrid": "~0.5.0",
     "ngSticky": "~1.7.9",
-    "angular-bootstrap": "~0.13.0",
+    "angular-bootstrap": "~0.13.2",
     "angular-translate": "~2.7.2",
     "angular-translate-loader-url": "~2.7.2",
-    "angular-translate-loader-static-files": "~2.7.2"
+    "angular-translate-loader-static-files": "~2.7.2",
+    "bootstrap-sass": "~3.3.5"
   },
   "devDependencies": {
     "angular-mocks": "^1.4.3"

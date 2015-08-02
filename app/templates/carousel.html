@@ -1,0 +1,9 @@
+<div>
+  <carousel interval="0" no-wrap="true">
+    <slide ng-repeat="slide in slides">
+      <img ng-src="{{slide.imageUrl}}">
+    </slide>
+  </carousel>
+  <button type="button" class="close close-lg" ng-click="ok()"><span aria-hidden="true">&times;</span><span
+    class="sr-only">Close</span></button>
+</div>
