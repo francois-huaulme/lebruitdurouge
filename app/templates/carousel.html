@@ -1,7 +1,8 @@
 <div>
-  <carousel interval="0" no-wrap="true">
-    <slide ng-repeat="slide in slides">
-      <img ng-src="{{slide.imageUrl}}">
+  <pre>{{items.length | json}}</pre>
+  <carousel>
+    <slide ng-repeat="item in items track by $index">
+      <img ng-src="{{item.imageUrl}}" style="margin:2em; width: 95%; height: 95%;">
     </slide>
   </carousel>
   <button type="button" class="close close-lg" ng-click="ok()"><span aria-hidden="true">&times;</span><span

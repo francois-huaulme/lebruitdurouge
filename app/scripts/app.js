@@ -20,7 +20,8 @@ angular
     'akoenig.deckgrid',
     'sticky',
     'ui.bootstrap',
-    'pascalprecht.translate'
+    'pascalprecht.translate',
+    'ui.splash'
   ])
   .config(function ($routeProvider) {
 

@@ -8,7 +8,7 @@
  * Controller of the lebruitdurougeApp
  */
 angular.module('lebruitdurougeApp')
-  .controller('ProjectDetailsCtrl', function ($scope, $routeParams, project, $modal) {
+  .controller('ProjectDetailsCtrl', ['$scope', '$routeParams', 'project', '$splash', function ($scope, $routeParams, project, $splash) {
     // Id needed for translation
     $scope.projectId = $routeParams.projectId.toUpperCase();
     // Loads slides for column display
@@ -17,19 +17,12 @@ angular.module('lebruitdurougeApp')
       for (var i = 0; i < project.imagesUrl.length; i++) {
         allSlides.push({imageUrl: project.imagesUrl[i]});
       }
-      $scope.images = allSlides;
-      $scope.slides = allSlides.slice();
+      $scope.slides = allSlides;
     });
     $scope.open = function () {
-      $scope.modalInstance = $modal.open({
-        animation: true,
-        templateUrl: 'templates/carousel.html',
-        size: 'lg',
-        scope: $scope
-      })
+      $scope.modalInstance = $splash.open({
+        title: 'Hi there!',
+        message: "This sure is a fine modal, isn't it?"
+      });
     };
-    // Carousel (close button)
-    $scope.ok = function () {
-      $scope.modalInstance.close();
-    };
-  });
+  }]);
