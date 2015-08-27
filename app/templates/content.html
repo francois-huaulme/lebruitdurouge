@@ -1,6 +1,5 @@
-<div class="splash-content text-center">
-  <h1 ng-bind="title">Hello?</h1>
-
-  <p class="lead" ng-bind="message"></p>
-  <button class="btn btn-lg btn-outline" ng-bind="btnText || 'Ok, cool'" ng-click="$close()"></button>
+<div class="modal-content">
+  <button type="button" class="close close-lg" ng-click="ok()"><span aria-hidden="true">&times;</span><span
+    class="sr-only">Close</span></button>
+  <img bg-image class="fullBg" ng-click="ok()" ng-repeat="item in items track by $index" ng-if="isCurrentSlideIndex($index)" ng-src="{{item.imageUrl}}">
 </div>

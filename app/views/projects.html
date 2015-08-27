@@ -1,4 +1,4 @@
 <div>
   <div sticky offset="200" class="project_details_description">{{'DESCRIPTION_' + projectId | translate}}</div>
-  <div deckgrid class="deckgrid" source="slides" cardTemplateString="<img ng-click='mother.open()' class='card' ng-src='{{card.imageUrl}}'/>"></div>
+  <div deckgrid class="deckgrid" source="slides" cardTemplateString="<img ng-click='mother.open(card.$index)' class='card' ng-src='{{card.imageUrl}}'/>"></div>
 </div>

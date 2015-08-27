@@ -18,11 +18,13 @@ angular.module('ui.splash', ['ui.bootstrap'])
           angular.extend(scope, attrs);
           opts = angular.extend(opts || {}, {
             animation: true,
-            size: 'lg',
+            controller: 'CarouselCtrl',
             backdrop: false,
+            size: 'fs',
             scope: scope,
             templateUrl: 'templates/content.html',
-            windowTemplateUrl: 'templates/splash.html'
+            windowClass: "modal-fs",
+            windowTemplateUrl: 'templates/index.html'
           });
           return $modal.open(opts);
         }

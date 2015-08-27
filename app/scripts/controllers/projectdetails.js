@@ -19,10 +19,10 @@ angular.module('lebruitdurougeApp')
       }
       $scope.slides = allSlides;
     });
-    $scope.open = function () {
+    $scope.open = function (index) {
       $scope.modalInstance = $splash.open({
-        title: 'Hi there!',
-        message: "This sure is a fine modal, isn't it?"
+        items: $scope.slides,
+        index: index
       });
     };
   }]);
