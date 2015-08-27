@@ -1,5 +1,9 @@
 <div class="modal-content">
   <button type="button" class="close close-lg" ng-click="ok()"><span aria-hidden="true">&times;</span><span
     class="sr-only">Close</span></button>
-  <img bg-image class="fullBg" ng-click="ok()" ng-repeat="item in items track by $index" ng-if="isCurrentSlideIndex($index)" ng-src="{{item.imageUrl}}">
+  <img bg-image class="fullBg"
+       ng-swipe-left="previousSlide()" ng-swipe-right="nextSlide()"
+       ng-click="ok()"
+       ng-repeat="item in items track by $index"
+       ng-if="isCurrentSlideIndex($index)" ng-src="{{item.imageUrl}}">
 </div>

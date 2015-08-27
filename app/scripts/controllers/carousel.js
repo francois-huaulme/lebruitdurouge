@@ -8,9 +8,7 @@
  * Controller of the lebruitdurougeApp
  */
 angular.module('lebruitdurougeApp')
-  .controller('CarouselCtrl', function ($scope, $modalInstance, $timeout) {
-    var INTERVAL = 3000;
-
+  .controller('CarouselCtrl', function ($scope, $modalInstance) {
     function setCurrentSlideIndex(index) {
       $scope.currentIndex = index;
     }
@@ -19,18 +17,23 @@ angular.module('lebruitdurougeApp')
       return $scope.currentIndex === index;
     }
 
+    function previousSlide() {
+      $scope.currentIndex = ($scope.currentIndex > 0) ? --$scope.currentIndex : $scope.items.length - 1;
+    }
+
     function nextSlide() {
       $scope.currentIndex = ($scope.currentIndex < $scope.items.length - 1) ? ++$scope.currentIndex : 0;
-      $timeout(nextSlide, INTERVAL);
     }
 
     function loadSlides() {
-      $timeout(nextSlide, INTERVAL);
+      nextSlide();
     }
 
     $scope.currentIndex = $scope.index;
     $scope.setCurrentSlideIndex = setCurrentSlideIndex;
     $scope.isCurrentSlideIndex = isCurrentSlideIndex;
+    $scope.previousSlide = previousSlide;
+    $scope.nextSlide = nextSlide;
     $scope.ok = function ok() {
       $modalInstance.close();
     };
