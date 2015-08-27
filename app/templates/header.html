@@ -8,7 +8,7 @@
     <ul class="menu">
       <li><a href="#/about">{{ 'MENU_ABOUT' | translate }}</a></li>
       <li ng-repeat="project in projects | unique : 'tag'">
-        <a href="#/?filter={{project.tag}}">{{project.tag}}</a>
+        <a href="#/?filter={{project.tag}}">{{ 'MENU_'  + project.tag.toUpperCase() | translate}}</a>
       </li>
     </ul>
   </div>

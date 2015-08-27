@@ -1,3 +1,6 @@
 {
-  "MENU_ABOUT": "About"
+  "MENU_ABOUT": "About",
+  "MENU_PRO": "Work",
+  "MENU_PERSO": "Personal",
+  "MENU_ETUDES": "Studies"
 }
