@@ -8,5 +8,9 @@
  * Controller of the lebruitdurougeApp
  */
 angular.module('lebruitdurougeApp')
-  .controller('AboutCtrl', function () {
-  });
+    .controller('AboutCtrl', ['$scope', 'projects', 'project',
+    function ($scope, projects, project) {
+            $scope.projects = projects.query(function () {});
+        
+            
+    }]);

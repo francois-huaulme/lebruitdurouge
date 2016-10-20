@@ -1,0 +1,70 @@
+<div ng-mouseenter="pause()" ng-mouseleave="play()" class="carousel ng-isolate-scope" ng-swipe-right="prev()"
+     ng-swipe-left="next()" interval="0" no-wrap="true">
+  <ol class="carousel-indicators ng-hide" ng-show="slides.length > 1">
+    <!-- ngRepeat: slide in slides | orderBy:'index' track by $index -->
+    <li ng-repeat="slide in slides | orderBy:'index' track by $index" ng-class="{active: isActive(slide)}"
+        ng-click="select(slide)" class="ng-scope active"></li>
+    <!-- end ngRepeat: slide in slides | orderBy:'index' track by $index -->
+    <li ng-repeat="slide in slides | orderBy:'index' track by $index" ng-class="{active: isActive(slide)}"
+        ng-click="select(slide)" class="ng-scope"></li>
+    <!-- end ngRepeat: slide in slides | orderBy:'index' track by $index -->
+    <li ng-repeat="slide in slides | orderBy:'index' track by $index" ng-class="{active: isActive(slide)}"
+        ng-click="select(slide)" class="ng-scope"></li>
+    <!-- end ngRepeat: slide in slides | orderBy:'index' track by $index -->
+  </ol>
+  <div class="carousel-inner" ng-transclude="">
+    <!-- ngRepeat: slide in images track by $index -->
+    <div ng-class="{
+    'active': active
+  }" class="item text-center ng-isolate-scope active" ng-transclude="" ng-repeat="slide in images track by $index">
+      <img ng-src="images/saint_gratien/gratien_1.jpg" class="ng-scope" src="images/saint_gratien/gratien_1.jpg">
+
+      <div class="carousel-caption ng-scope">
+        <h4 class="ng-binding">Slide 0</h4>
+
+        <p class="ng-binding">More Cats</p>
+      </div>
+    </div><!-- end ngRepeat: slide in images track by $index -->
+    <a class="left carousel-control ng-hide" ng-click="prev()" ng-show="slides.length > 1"><span
+      class="glyphicon glyphicon-chevron-left"></span></a>
+    <a class="right carousel-control ng-hide" ng-click="next()" ng-show="slides.length > 1"><span
+      class="glyphicon glyphicon-chevron-right"></span></a>
+  </div>
+
+
+  <div ng-mouseenter="pause()" ng-mouseleave="play()" class="carousel ng-isolate-scope" ng-swipe-right="prev()"
+       ng-swipe-left="next()" interval="myInterval" no-wrap="noWrapSlides">
+    <ol class="carousel-indicators" ng-show="slides.length &gt; 1">
+      <!-- ngRepeat: slide in slides | orderBy:'index' track by $index -->
+      <li ng-repeat="slide in slides | orderBy:'index' track by $index" ng-class="{active: isActive(slide)}"
+          ng-click="select(slide)" class="ng-scope active" style=""></li>
+      <!-- end ngRepeat: slide in slides | orderBy:'index' track by $index -->
+      <li ng-repeat="slide in slides | orderBy:'index' track by $index" ng-class="{active: isActive(slide)}"
+          ng-click="select(slide)" class="ng-scope" style=""></li>
+      <!-- end ngRepeat: slide in slides | orderBy:'index' track by $index -->
+      <li ng-repeat="slide in slides | orderBy:'index' track by $index" ng-class="{active: isActive(slide)}"
+          ng-click="select(slide)" class="ng-scope" style=""></li>
+      <!-- end ngRepeat: slide in slides | orderBy:'index' track by $index -->
+      <li ng-repeat="slide in slides | orderBy:'index' track by $index" ng-class="{active: isActive(slide)}"
+          ng-click="select(slide)" class="ng-scope" style=""></li>
+      <!-- end ngRepeat: slide in slides | orderBy:'index' track by $index -->
+    </ol>
+    <div class="carousel-inner" ng-transclude="">
+      <!-- ngRepeat: slide in slides -->
+      <div ng-class="{
+    'active': active
+  }" class="item text-center ng-isolate-scope active" ng-transclude="" ng-repeat="slide in slides" active="slide.active"
+           style="">
+        <img ng-src="//placekitten.com/601/300" style="margin:auto;" class="ng-scope" src="//placekitten.com/601/300">
+
+        <div class="carousel-caption ng-scope">
+          <h4 class="ng-binding">Slide 0</h4>
+
+          <p class="ng-binding">More Cats</p>
+        </div>
+      </div><!-- end ngRepeat: slide in slides -->
+      <a class="left carousel-control" ng-click="prev()" ng-show="slides.length &gt; 1"><span
+        class="glyphicon glyphicon-chevron-left"></span></a>
+      <a class="right carousel-control" ng-click="next()" ng-show="slides.length &gt; 1"><span
+        class="glyphicon glyphicon-chevron-right"></span></a>
+    </div>
