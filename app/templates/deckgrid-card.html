@@ -1,6 +1,6 @@
-<div>
-  <a class="home_project_list" ng-href="#/projects/{{card.id}}">
-    <img tooltip-placement="left" tooltip="{{card.name}}" class="card animation-fade animation-faded"
-         ng-src='{{card.coverUrl}}' data-imageloaded data-loadedclass="animation-faded">
-  </a>
+<div class="card">
+    <a ng-href="#/projects/{{card.id}}" class="card-image">
+      <img ng-src='{{card.coverUrl}}'/>
+      <div class="card-cover">{{'NAME_' + card.id | translate}}</div>
+    </a>
 </div>
