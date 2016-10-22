@@ -1,4 +1,7 @@
 {
+  "COLUMN_DATE": "Date",
+  "COLUMN_CATEGORY": "Catégorie",
+  "COLUMN_TITLE": "Titre",
   "MENU_ABOUT": "A propos...",
   "MENU_PRO": "Professionel",
   "MENU_PERSO": "Personel",

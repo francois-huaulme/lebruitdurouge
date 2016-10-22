@@ -199,15 +199,11 @@ body {
 }
 
 .ui-grid {
-  border: 0px;
-}
-
-.ui-grid-column-menu-button {
-  visibility: hidden;
+  border: 0;
 }
 
 .ui-grid-cell {
-  border-right: 0px;
+  border-right: 0;
 }
 
 .ui-grid-row:nth-child(even) .ui-grid-cell {
@@ -220,6 +216,10 @@ body {
 
 .ui-grid-header-cell {
   border-right: 0px;
+}
+
+.ui-grid-header {
+  border-bottom: 0;
 }
 
 // PREVIOUS STYLES - BEGIN

@@ -54,6 +54,6 @@ angular
       suffix: '.json'
     });
     $translateProvider.preferredLanguage('fr');
-    $translateProvider.fallbackLanguage('fr')
+    $translateProvider.fallbackLanguage('fr');
     $translateProvider.useSanitizeValueStrategy('escaped');
   }]);
