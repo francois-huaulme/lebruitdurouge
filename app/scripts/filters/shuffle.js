@@ -11,7 +11,7 @@
 angular.module('lebruitdurougeApp')
   .filter('shuffle', function () {
     return function (input) {
-      if (input == undefined) {
+      if (input === undefined) {
         return undefined;
       }
       var shuffledInput = input.slice();

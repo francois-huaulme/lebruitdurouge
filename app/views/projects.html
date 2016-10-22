@@ -1,4 +1,8 @@
 <div>
   <div sticky offset="200" class="project_details_description">{{'DESCRIPTION_' + projectId | translate}}</div>
-  <div deckgrid class="deckgrid" source="slides" cardTemplateString="<figure class='card'><img src='{{card.imageUrl}}'/></figure>"></div>
+  <div masonry>
+    <div class="masonry-brick" ng-repeat="slide in slides">
+          <img ng-src='{{slide.imageUrl}}'/>
+    </div>
+  </div>
 </div>

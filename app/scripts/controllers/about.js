@@ -9,8 +9,8 @@
  */
 angular.module('lebruitdurougeApp')
     .controller('AboutCtrl', ['$scope', 'projects', 'project',
-    function ($scope, projects, project) {
+    function ($scope, projects) {
             $scope.projects = projects.query(function () {});
-        
-            
+
+
     }]);

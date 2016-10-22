@@ -1,3 +1,12 @@
-<div class="home_project">
-  <div deckgrid class="deckgrid" source="slides" cardTemplate="templates/deckgrid-card.html"></div>
+<div>
+  <div masonry>
+    <div class="masonry-brick" ng-repeat="card in slides">
+      <div class="home-brick">
+        <a ng-href="#/projects/{{card.id}}" class="home-brick-image">
+          <img ng-src='{{card.coverUrl}}'/>
+          <div class="home-brick-cover">{{'NAME_' + card.id.toUpperCase() | translate}}</div>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>

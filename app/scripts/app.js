@@ -21,7 +21,8 @@ angular
     'sticky',
     'ui.bootstrap',
     'pascalprecht.translate',
-    'ui.grid'
+    'ui.grid',
+    'wu.masonry'
   ])
   .config(function ($routeProvider) {
 

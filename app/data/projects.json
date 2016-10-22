@@ -2,133 +2,133 @@
   {
     "id": "maxalto",
     "name": "Scénographie pour Max Alto",
-    "coverUrl": "images/maxalto/cover.jpg",
+    "coverUrl": "https://placehold.it/150x150",
     "tag": "pro"
   },
   {
     "id": "chaumont",
     "name": "Concours de Chaumont sur Loire",
-    "coverUrl": "images/chaumont/cover.jpg",
+    "coverUrl": "https://placehold.it/100x150",
     "tag": "perso"
   },
   {
     "id": "alencon",
     "name": "Alencon",
-    "coverUrl": "images/alencon/cover.jpg",
+    "coverUrl": "https://placehold.it/100x200",
     "tag": "pro"
   },
   {
     "id": "alfortville",
     "name": "Alfortville",
-    "coverUrl": "images/alfortville/cover.jpg",
+    "coverUrl": "https://placehold.it/100x150",
     "tag": "pro"
   },
   {
     "id": "auxerre",
     "name": "Auxerre",
-    "coverUrl": "images/auxerre/cover.jpg",
+    "coverUrl": "https://placehold.it/100x150",
     "tag": "pro"
   },
   {
     "id": "bondy",
     "name": "Bondy",
-    "coverUrl": "images/bondy/cover.jpg",
+    "coverUrl": "https://placehold.it/300x250",
     "tag": "pro"
   },
   {
     "id": "boulogne",
     "name": "Boulogne",
-    "coverUrl": "images/boulogne/cover.jpg",
+    "coverUrl": "https://placehold.it/100x150",
     "tag": "pro"
   },
   {
     "id": "chelles",
     "name": "Chelles",
-    "coverUrl": "images/chelles/cover.jpg",
+    "coverUrl": "https://placehold.it/200x200",
     "tag": "pro"
   },
   {
     "id": "enclave",
     "name": "Enclave",
-    "coverUrl": "images/enclave/cover.jpg",
+    "coverUrl": "https://placehold.it/100x100",
     "tag": "etudes"
   },
   {
     "id": "FFC",
     "name": "FFC",
-    "coverUrl": "images/ffc/cover.jpg",
+    "coverUrl": "https://placehold.it/100x150",
     "tag": "pro"
   },
   {
     "id": "graphisme",
     "name": "graphisme",
-    "coverUrl": "images/graphisme/cover.jpg",
+    "coverUrl": "https://placehold.it/200x250",
     "tag": "perso"
   },
   {
     "id": "gravigny",
     "name": "gravigny",
-    "coverUrl": "images/gravigny/cover.jpg",
+    "coverUrl": "https://placehold.it/100x150",
     "tag": "pro"
   },
   {
     "id": "hbm",
     "name": "hbm",
-    "coverUrl": "images/hbm/cover.jpg",
+    "coverUrl": "https://placehold.it/300x300",
     "tag": "etudes"
   },
   {
     "id": "jublains",
     "name": "jublains",
-    "coverUrl": "images/jublains/cover.jpg",
+    "coverUrl": "https://placehold.it/200x150",
     "tag": "etudes"
   },
   {
     "id": "rehab_paris_14",
     "name": "rehab_paris_14",
-    "coverUrl": "images/rehab_paris_14/cover.jpg",
+    "coverUrl": "https://placehold.it/200x250",
     "tag": "pro"
   },
   {
     "id": "ritz",
     "name": "ritz",
-    "coverUrl": "images/ritz/cover.jpg",
+    "coverUrl": "https://placehold.it/350x150",
     "tag": "pro"
   },
   {
     "id": "saint_gratien",
     "name": "saint_gratien",
-    "coverUrl": "images/saint_gratien/cover.jpg",
+    "coverUrl": "https://placehold.it/200x150",
     "tag": "pro"
   },
   {
     "id": "soisy",
     "name": "soisy",
-    "coverUrl": "images/soisy/cover.jpg",
+    "coverUrl": "https://placehold.it/100x150",
     "tag": "pro"
   },
   {
     "id": "textile",
     "name": "textile",
-    "coverUrl": "images/textile/cover.jpg",
+    "coverUrl": "https://placehold.it/100x150",
     "tag": "perso"
   },
   {
     "id": "tooltoy",
     "name": "tooltoy",
-    "coverUrl": "images/tooltoy/cover.jpg",
+    "coverUrl": "https://placehold.it/200x250",
     "tag": "etudes"
   },
   {
     "id": "touques",
     "name": "touques",
-    "coverUrl": "images/touques/cover.jpg",
+    "coverUrl": "https://placehold.it/100x150",
     "tag": "pro"
   },
   {
     "id": "ycb",
     "name": "ycb",
-    "coverUrl": "images/ycb/cover.jpg",
+    "coverUrl": "https://placehold.it/150x150",
     "tag": "pro"
   }
 ]

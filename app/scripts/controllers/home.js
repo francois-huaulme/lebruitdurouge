@@ -14,7 +14,7 @@ angular.module('lebruitdurougeApp')
       $scope.slides = projects.query(function () {
         // Get filter from param
         var filteredProjects;
-        if (filterParam == undefined) {
+        if (filterParam === undefined) {
           filteredProjects = $scope.slides;
         } else {
           filteredProjects = $filter('uniqueInList')($scope.slides, [filterParam]);
