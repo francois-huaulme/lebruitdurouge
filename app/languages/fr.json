@@ -3,13 +3,16 @@
   "COLUMN_CATEGORY": "Catégorie",
   "COLUMN_TITLE": "Titre",
 
-  "MENU_ABOUT": "A propos...",
+  "MENU_ABOUT": "CV / Contact",
 
-  "TAG_PRO": "Professionel",
-  "TAG_PERSO": "Personel",
-  "TAG_ETUDES": "Etudes",
-  "TAG_EXB": "Expositions",
+  "TAG_NEW": "New",
+  "TAG_HOM": "Résidentiel",
   "TAG_COM": "Commercial",
+  "TAG_EXB": "Expositions",
+  "TAG_PRO": "Projects",
+  "TAG_COL": "Collaborations",
+  "TAG_PERSO": "Personnel",
+  "TAG_ETUDES": "Etudes",
 
   "NAME_ALENCON": "alençon",
   "DESCRIPTION_ALENCON": "Concours pour la réalisation de 60 logements sociaux THPE à Alençon (61). Poste : assistante chef de projet APS > PC (en cours). Logiciel : Revit.",

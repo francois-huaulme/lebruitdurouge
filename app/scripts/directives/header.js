@@ -6,6 +6,8 @@
  * @description
  * # header
  */
+const enforcedTagOrder = ["new", "hom", "com", "exb", "pro", "col"];
+
 angular.module('lebruitdurougeApp')
   .directive('header', function () {
     return {
@@ -17,7 +19,7 @@ angular.module('lebruitdurougeApp')
           $translate.use(key);
         };
 
-        $scope.tags = [];
+        $scope.tags = enforcedTagOrder;
         var projects = projects.query();
         projects.$promise.then(function (allProjects) {
           var unique = {};
@@ -25,7 +27,7 @@ angular.module('lebruitdurougeApp')
             var projectTags = allProjects[i].tags;
             for(var j = 0; j < projectTags.length; j++) {
               var currentProjectTag = projectTags[j];
-              if(unique[currentProjectTag] === undefined) {
+              if(enforcedTagOrder.indexOf(currentProjectTag) < 0 && unique[currentProjectTag] === undefined) {
                 $scope.tags.push(currentProjectTag);
                 unique[currentProjectTag] = "";
               }

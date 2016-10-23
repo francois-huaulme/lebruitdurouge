@@ -2,13 +2,17 @@
   "COLUMN_DATE": "Date",
   "COLUMN_CATEGORY": "Category",
   "COLUMN_TITLE": "Title",
-  "MENU_ABOUT": "About",
 
-  "TAG_PRO": "Work",
+  "MENU_ABOUT": "Resume / Contact",
+
+  "TAG_NEW": "New",
+  "TAG_HOM": "Homes",
+  "TAG_COM": "Commercial",
+  "TAG_EXB": "Exhibitions",
+  "TAG_PRO": "Projects",
+  "TAG_COL": "Collaborations",
   "TAG_PERSO": "Personal",
   "TAG_ETUDES": "Studies",
-  "TAG_EXB": "Exhibitions",
-  "TAG_COM": "Commercial",
 
   "NAME_TEXTILE": "CREATIONS"
 }
