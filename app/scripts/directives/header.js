@@ -16,7 +16,22 @@ angular.module('lebruitdurougeApp')
         $scope.changeLanguage = function (key) {
           $translate.use(key);
         };
-        $scope.projects = projects.query();
+
+        $scope.tags = [];
+        var projects = projects.query();
+        projects.$promise.then(function (allProjects) {
+          var unique = {};
+          for(var i = 0; i < allProjects.length; i++) {
+            var projectTags = allProjects[i].tags;
+            for(var j = 0; j < projectTags.length; j++) {
+              var currentProjectTag = projectTags[j];
+              if(unique[currentProjectTag] === undefined) {
+                $scope.tags.push(currentProjectTag);
+                unique[currentProjectTag] = "";
+              }
+            }
+          }
+        })
       }]
     };
   });

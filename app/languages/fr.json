@@ -2,10 +2,15 @@
   "COLUMN_DATE": "Date",
   "COLUMN_CATEGORY": "Catégorie",
   "COLUMN_TITLE": "Titre",
+
   "MENU_ABOUT": "A propos...",
-  "MENU_PRO": "Professionel",
-  "MENU_PERSO": "Personel",
-  "MENU_ETUDES": "Etudes",
+
+  "TAG_PRO": "Professionel",
+  "TAG_PERSO": "Personel",
+  "TAG_ETUDES": "Etudes",
+  "TAG_EXB": "Expositions",
+  "TAG_COM": "Commercial",
+
   "NAME_ALENCON": "alençon",
   "DESCRIPTION_ALENCON": "Concours pour la réalisation de 60 logements sociaux THPE à Alençon (61). Poste : assistante chef de projet APS > PC (en cours). Logiciel : Revit.",
   "NAME_ALFORTVILLE": "ALFORTVILLE",

@@ -3,8 +3,12 @@
   "COLUMN_CATEGORY": "Category",
   "COLUMN_TITLE": "Title",
   "MENU_ABOUT": "About",
-  "MENU_PRO": "Work",
-  "MENU_PERSO": "Personal",
-  "MENU_ETUDES": "Studies",
+
+  "TAG_PRO": "Work",
+  "TAG_PERSO": "Personal",
+  "TAG_ETUDES": "Studies",
+  "TAG_EXB": "Exhibitions",
+  "TAG_COM": "Commercial",
+
   "NAME_TEXTILE": "CREATIONS"
 }

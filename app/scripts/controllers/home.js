@@ -21,7 +21,6 @@ angular.module('lebruitdurougeApp')
         }
         $scope.slides = $filter('shuffle')(filteredProjects);
       });
-
     }]
-);
+  );
 

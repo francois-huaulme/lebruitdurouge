@@ -21,7 +21,7 @@ angular.module('lebruitdurougeApp')
       for (var j = 0; j < values.length; j++) {
         var currentValue = values[j];
         for (var i = 0; i < input.length; i++) {
-          if (input[i].tag === currentValue) {
+          if (input[i].tags.indexOf(currentValue) >= 0) {
             filteredList.push(input[i]);
           }
         }
